@@ -10,11 +10,19 @@ import androidx.appcompat.content.res.AppCompatResources.getDrawable
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.lcj.thesimpleweather.databinding.FragmentWeatherListBinding
+import java.text.SimpleDateFormat
+import java.util.Date
+import java.util.Locale
 
 class WeatherListFragment : Fragment() {
     private var _binding: FragmentWeatherListBinding? = null
     private val binding get() = _binding!!
     private val listAdapter by lazy { WeatherItemListAdapter() }
+
+    private val currentDate by lazy {
+        SimpleDateFormat("yyyyMMdd", Locale.KOREA).format(Date())
+    }
+
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,

@@ -56,4 +56,9 @@ dependencies {
     //페이지 인디게이터
     implementation(libs.circleindicator)
 
+    //레트로핏
+    implementation(libs.retrofit)
+    implementation(libs.gson.converter)
+    implementation(libs.debugging.interceptor)
+
 }
