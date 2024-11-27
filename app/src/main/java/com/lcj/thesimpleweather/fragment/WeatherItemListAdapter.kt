@@ -1,10 +1,12 @@
-package com.lcj.thesimpleweather
+package com.lcj.thesimpleweather.fragment
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
+import com.lcj.thesimpleweather.R
+import com.lcj.thesimpleweather.data.WeatherData
 import com.lcj.thesimpleweather.databinding.ItemLayoutBinding
 
 class WeatherItemListAdapter :

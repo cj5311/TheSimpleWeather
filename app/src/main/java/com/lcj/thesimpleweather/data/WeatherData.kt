@@ -1,4 +1,6 @@
-package com.lcj.thesimpleweather
+package com.lcj.thesimpleweather.data
+
+import com.lcj.thesimpleweather.R
 
 data class WeatherData(
     val time: String = "--:--",
