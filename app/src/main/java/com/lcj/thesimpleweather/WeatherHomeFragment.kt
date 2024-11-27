@@ -1,10 +1,10 @@
 package com.lcj.thesimpleweather
-
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import com.lcj.thesimpleweather.databinding.FragmentWeatherHomeBinding
 
 class WeatherHomeFragment : Fragment() {
 
